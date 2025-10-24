@@ -76,7 +76,30 @@
 }
 
 .video-trailer video {
+  position: relative;
   margin-top: 40px;
   max-width: 900px;
+  background-color: black;
   outline: none;
+}
+
+@media (max-width: 991px) {
+  .video-trailer video {
+    max-width: 90%;
+  }
+}
+
+.close-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.4s;
+}
+
+.close-icon:hover {
+  opacity: 1;
 }
