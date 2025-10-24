@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+}
+
+.main-container {
+  max-width: 550px;
+}
+
+.main-container img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.video-trailer {
+  display: none;
+}
